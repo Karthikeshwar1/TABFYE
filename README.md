@@ -2,7 +2,7 @@
 <br>
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 
 </h1>
 
@@ -43,7 +43,11 @@ Go to the project directory and run the following command
 
 <br>
 
+## made with
 
+* [PyQt](https://riverbankcomputing.com/software/pyqt/intro)
+* [Plyer](https://github.com/kivy/plyer)
+* [APScheduler](https://github.com/agronholm/apscheduler)
 
 ## contributors
 
