@@ -3,7 +3,7 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from appUi import MainWindow
+from appUi import MainWindow, help
 import time, os
 import datetime
 import sys
@@ -164,6 +164,9 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
         self.checkFriday.stateChanged.connect(self.check_day_of_the_week)
         self.checkSaturday.stateChanged.connect(self.check_day_of_the_week)
         self.checkSunday.stateChanged.connect(self.check_day_of_the_week)
+
+        self.helpButton.clicked.connect(self.help_dialog)
+
         time = self.timeEdit.time()
         self.timeEdit.dateTimeChanged.connect(self.displayDT)
         self.timeEdit_2.dateTimeChanged.connect(self.displayDT)
@@ -213,6 +216,15 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
         self.disableReminder.setChecked(False)
         if self.do_not_start == False:
             self.scheduler.start()
+
+    def help_dialog(self):
+        self.window = QtWidgets.QMainWindow()
+        self.ui = help.Ui_Dialog()
+        self.ui.setupUi(self.window)
+        self.ui.closeButton.clicked.connect(self.window.close)
+        # self.window.resize(500, 440)
+        self.window.setWindowIcon(QIcon('appUi/question.png'))
+        self.window.show()
 
 
 

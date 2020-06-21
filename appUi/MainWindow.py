@@ -109,7 +109,10 @@ class Ui_MainWindow(object):
         self.reminder_label = QtWidgets.QLabel(self.centralwidget)
         self.reminder_label.setMinimumSize(QtCore.QSize(200, 100))
         self.reminder_label.setObjectName("reminder_label")
-        self.gridLayout_3.addWidget(self.reminder_label, 2, 0, 1, 1)
+        self.gridLayout_3.addWidget(self.reminder_label, 3, 0, 1, 1)
+        self.helpButton = QtWidgets.QPushButton(self.centralwidget)
+        self.helpButton.setObjectName("helpButton")
+        self.gridLayout_3.addWidget(self.helpButton, 3, 1, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
@@ -147,4 +150,5 @@ class Ui_MainWindow(object):
         self.checkSaturday.setText(_translate("MainWindow", "Saturday"))
         self.checkWednesday.setText(_translate("MainWindow", "Wednesday"))
         self.reminder_label.setText(_translate("MainWindow", "Reminder"))
+        self.helpButton.setText(_translate("MainWindow", "Help"))
 
