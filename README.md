@@ -56,6 +56,8 @@ Go to the project directory and run the following command
 This project was made for [HackJaipur](https://hackjaipur.com) hackathon
 
 * [Karthikeshwar](https://github.com/Karthikeshwar1)
+* [Siddhanta Mandal](https://https://github.com/Siddhanta-10)
 * [Suhas Nukala](https://github.com/suhasnukala2005)
+* [Vikas G N](https://github.com/vikasgn2)
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
