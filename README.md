@@ -41,6 +41,8 @@ Go to the project directory and run the following command
 * You can also disable reminders for specific days of the week
 
 
+
+
 <br>
 
 ## made with
@@ -51,6 +53,9 @@ Go to the project directory and run the following command
 
 ## contributors
 
-Karthikeshwar
+This project was made for [HackJaipur](https://hackjaipur.com) hackathon
+
+* [Karthikeshwar](https://github.com/Karthikeshwar1)
+* [Suhas Nukala](https://github.com/suhasnukala2005)
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
