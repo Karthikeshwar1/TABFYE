@@ -72,7 +72,7 @@ Then upgrading *pip* solves the error :
 This project was made for [HackJaipur](https://hackjaipur.com) hackathon
 
 * [Karthikeshwar](https://github.com/Karthikeshwar1)
-* [Siddhanta Mandal](https://https://github.com/Siddhanta-10)
+* [Siddhanta Mandal](https://github.com/Siddhanta-10)
 * [Suhas Nukala](https://github.com/suhasnukala2005)
 * [Vikas G N](https://github.com/vikasgn2)
 
